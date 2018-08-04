@@ -1,0 +1,70 @@
+<include("src/layouts/vendor/awly/blank")>
+    <@title>
+        Congratulations!
+    </@title>
+    <@body>
+        <div.wrap>
+            <div.logo><awly-logo /></div>
+            <div.title>Congratulations!</div>
+            <div.instructions>
+                <div>
+                    You have successfully created an Awly project!
+                </div>
+
+                <p>
+                    To quickly get up to speed, please take a look at the <a.nowrap href="https://awly.io/getting-started" target="_blank">getting started guide</a>.
+                    You can also check the <a href="/examples">local examples</a> or on the <a href="https://awly.io/examples">awly.io</a> page. 
+                </p>
+
+                <p>
+                    You can also read the official <a.nowrap href="https://awly.io/docs" target="_blank">documentation</a>.
+                </p>
+
+                <p.smallText>
+                    Awly is a very young project and is currently in Alpha stage. Right now there is a lot of missing things and
+                    a lot might change along the road, but I will try my best to help out. You can reach out to me with questions on
+                    the gitter channel: <a.nowrap href="https://gitter.im/awly-io/" target="_blank">https://gitter.im/awly-io/</a>.
+                </p>
+            </div>
+        </div>
+    </@body>
+</include>
+
+style.scss {
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    .wrap {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: #222222;
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .instructions {
+        padding: 0px 20px;
+        font-size: 20px;
+        max-width: 700px;
+        line-height: 1.5;
+    }
+
+    .smallText {
+        font-size: 14px;
+        color: #444444;
+    }
+}

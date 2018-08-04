@@ -1,0 +1,32 @@
+{
+  "name": "awly-skeleton",
+  "version": "1.0.0",
+  "description": "Awly default app skeleton",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirceljm/awly-skeleton.git"
+  },
+  "author": "Matej Šircelj <sircelj.m@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirceljm/awly-skeleton/issues"
+  },
+  "homepage": "https://awly.io",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.9",
+    "apollo-client": "^2.3.5",
+    "apollo-link-http": "^1.5.1",
+    "apollo-link-local": "^1.0.3",
+    "class-validator": "^0.9.1",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.8.0",
+    "graphql-tools": "^2.21.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-client": "^0.2.1",
+    "marked": "^0.4.0",
+    "marko": "git://github.com/sirceljm/marko.git#server-tag_4.6.0",
+    "raptor-pubsub": "^1.0.5"
+  },
+  "devDependencies": {}
+}
