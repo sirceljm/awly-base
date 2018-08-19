@@ -61,7 +61,6 @@ typings/
 /static
 /.cache
 /certs
-/data/dynalite/*
 /project-config/cloudfront/cache-behavior-template.js
 /project-config/cloudfront/cloudfront-distribution.config.js
 /project-config/iam/roles/*
