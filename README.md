@@ -1,9 +1,4 @@
-AWLY
+Awly base bundle
 ==================================
 
-```bash
-git clone https://github.com/sirceljm/awly.git
-cd awly
-npm install
-npm run lambda
-```
+This is the Awly base bundle it includes the basic Awly project structure and components

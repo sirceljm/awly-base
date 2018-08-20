@@ -1,16 +1,16 @@
 {
-  "name": "awly-skeleton",
+  "name": "awly-base",
   "version": "1.0.1",
   "description": "Awly default app skeleton",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/sirceljm/awly-skeleton.git"
+    "url": "https://github.com/sirceljm/awly-base.git"
   },
   "author": "Matej Šircelj <sircelj.m@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sirceljm/awly-skeleton/issues"
+    "url": "https://github.com/sirceljm/awly-base/issues"
   },
   "homepage": "https://awly.io",
   "dependencies": {
