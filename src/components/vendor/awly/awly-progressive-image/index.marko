@@ -63,30 +63,11 @@ class {
 }
 
 <div id:scoped data-exports=(!isServer ? importExports(component) : null)>
-  <!-- <await(exports from (isServer ? exportsPromise : state))> -->
     <span data-exports:no-update=JSON.stringify((isServer ? exportsPromise : state))></span>
     <div.progressive-image-wrap>
-        <!-- <div style="height: 300px;"/> -->
-        <!-- <svg viewBox="0 0 930 620"
-             preserveAspectRatio="none"
-             xmlns="http://www.w3.org/2000/svg"
-             xmlns:xlink="http://www.w3.org/1999/xlink">
-          <defs>
-             <filter id="blur" x="0" y="0">
-               <feGaussianBlur in="SourceGraphic" stdDeviation="30" />
-             </filter>
-          </defs>
-          <image href="data:image/gif;base64,R0lGODdhCgAHAMZGAAQTGAcUGggYHQsZHQ0ZHg4bHw8bHQ0dIhIdHxUdHBEeIxIeIgwjLBsiIxomKhsmKSMmIiMmJCcmJCAoKyIrLTEtJjcvJC4xMjEyLzE1ODk3NTk4Oj44MkM7NjlCR0RAPk5CN2NJN1tMQmhYSmZZVnZYRWZjYpxoQZFsUJ9xUJV3ZqJ1VJp3Y4V8fXt+io+Hh6qIcr2IZr6JX6CTkJOWrKuTidSPWsKei+KdZtafeNSkiM+mlOamcMSwtda2peK5pPnHofzUuf7cwv3l0vXo4v/q2v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ywAAAAACgAHAAAHSIAIHCUxOz00Lh4MIyw6RUQ3My8tJig5QEJDQT41PzAWJzY4PDIkHyAQCRUhKSsqGxkUBgUNERIdGhcOBwMBBAsYIhMPCgIAgQA7" width="100%" filter="url(#blur)"/>
-        </svg> -->
         <object type="image/svg+xml" data:no-update="${state.previewImageUrl}"></object>
-        <!-- <img.progressive-image-preview src="/assets/img/aircraft-wing-preview.jpg" /> -->
         <div.progressive-image-full class="${state.loadedClass}"><img src="${state.fullImage}" /></div>
-        <!-- <canvas#canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="600" height="405" ></canvas> -->
-        <!-- <img class="progressiveMedia-image js-progressiveMedia-image __web-inspector-hide-shortcut__"
-             data-src="https://cdn-images-1.medium.com/max/1800/1*sg-uLNm73whmdOgKlrQdZA.jpeg"
-             src="https://cdn-images-1.medium.com/max/1800/1*sg-uLNm73whmdOgKlrQdZA.jpeg"> -->
     </div>
-  <!-- </await> -->
 </div>
 
 style.sass {
