@@ -15,7 +15,7 @@
         "transformer": "./hooks/vendor/awly/inline-svg-transformer.js"
     },
     "<*>": {
-        "transformer": "./hooks/vendor/awly/show-only-in-env-transformer.js"
+        "transformer": "./hooks/vendor/awly/show-only-in-stage-transformer.js"
     },
 
     "<app-base64>": {
