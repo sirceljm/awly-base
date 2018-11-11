@@ -28,9 +28,5 @@
     },
     "<img>": {
         "transformer": "./hooks/vendor/markojs/img-transformer.js"
-    },
-    "<*>": {
-        "@repeat": "integer",
-        "transformer": "./hooks/vendor/markojs/repeat-transformer.js"
     }
 }
